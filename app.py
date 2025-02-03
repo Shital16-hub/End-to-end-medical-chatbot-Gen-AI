@@ -23,6 +23,8 @@ Pinecone(api_key=PINECONE_API_KEY)
 
 app = Flask(__name__)
 
+
+
 # Initialize components
 embeddings = get_embeddings()
 vectorstore = initialize_vectorstore("medicalbot", embeddings)
